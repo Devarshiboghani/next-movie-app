@@ -1,0 +1,75 @@
+.cinevault-navbar {
+  background: rgba(10, 10, 18, 0.95) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 200, 60, 0.15);
+  padding: 12px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.brand-logo {
+  font-family: "Bebas Neue", "Impact", sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.brand-logo .cine {
+  color: #ffc83c;
+}
+
+.brand-logo .vault {
+  color: #ffffff;
+}
+
+.search-input {
+  background: rgba(255, 255, 255, 0.07) !important;
+  border: 1px solid rgba(255, 200, 60, 0.25) !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+  min-width: 220px;
+  font-size: 0.875rem;
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.search-input:focus {
+  box-shadow: 0 0 0 2px rgba(255, 200, 60, 0.3) !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.btn-search {
+  background: rgba(255, 200, 60, 0.15) !important;
+  border: 1px solid rgba(255, 200, 60, 0.4) !important;
+  color: #ffc83c !important;
+  border-radius: 8px !important;
+  padding: 8px 14px;
+  transition: all 0.2s;
+}
+
+.btn-search:hover {
+  background: rgba(255, 200, 60, 0.3) !important;
+}
+
+.btn-add-movie {
+  background: #ffc83c !important;
+  border: none !important;
+  color: #0a0a12 !important;
+  font-weight: 700 !important;
+  border-radius: 8px !important;
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.btn-add-movie:hover {
+  background: #ffd966 !important;
+  transform: translateY(-1px);
+}
